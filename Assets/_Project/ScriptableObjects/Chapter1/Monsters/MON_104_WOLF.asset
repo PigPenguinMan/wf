@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a79d61d31a9cf84583902f55d8582f6, type: 3}
+  m_Name: MON_104_WOLF
+  m_EditorClassIdentifier: Assembly-CSharp::WildFrontier.Data.MonsterDataSO
+  monsterId: MON_104_WOLF
+  monsterName: "\uBC14\uB78C\uAC08\uAE30 \uB291\uB300"
+  species: 1
+  size: 1
+  level: 6
+  weaknessElement: 3
+  maxHp: 220
+  attackPower: 24
+  defense: 7
+  moveSpeed: 2.5
+  chaseRange: 5
+  attackRange: 1.2
+  attackCooldown: 1.5
+  expReward: 25
+  isNocturnal: 1
+  corpseDuration: 20
+  carveHoldTime: 1.3
+  carvingLootTable:
+  - item: {fileID: 11400000, guid: ffa17fef6588e5842879b642bf631090, type: 2}
+    baseDropChance: 0.9
+    minAmount: 2
+    maxAmount: 3
+    overkillBonusChance: 0.1
+  - item: {fileID: 11400000, guid: 80eedae91629d83439325f8e3bfb4ecf, type: 2}
+    baseDropChance: 0.7
+    minAmount: 1
+    maxAmount: 2
+    overkillBonusChance: 0.15
+  - item: {fileID: 11400000, guid: 4d738c0702e110f44bfdfd7949d24a93, type: 2}
+    baseDropChance: 0.12
+    minAmount: 1
+    maxAmount: 1
+    overkillBonusChance: 0.15
+  canBeTamed: 0
+  favoriteBaitItem: {fileID: 0}
+  baseTameChance: 0.25
+  awakenedPetSkillDescription: 

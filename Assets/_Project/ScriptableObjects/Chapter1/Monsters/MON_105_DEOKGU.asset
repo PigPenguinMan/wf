@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a79d61d31a9cf84583902f55d8582f6, type: 3}
+  m_Name: MON_105_DEOKGU
+  m_EditorClassIdentifier: Assembly-CSharp::WildFrontier.Data.MonsterDataSO
+  monsterId: MON_105_DEOKGU
+  monsterName: "\uAD11\uD3ED\uD55C \uB355\uAD6C"
+  species: 1
+  size: 0
+  level: 8
+  weaknessElement: 2
+  maxHp: 550
+  attackPower: 35
+  defense: 14
+  moveSpeed: 2.5
+  chaseRange: 5
+  attackRange: 1.2
+  attackCooldown: 1.5
+  expReward: 25
+  isNocturnal: 0
+  corpseDuration: 20
+  carveHoldTime: 1.8
+  carvingLootTable:
+  - item: {fileID: 11400000, guid: 33fc95c790a71d1449c5b6c6c8666e04, type: 2}
+    baseDropChance: 1
+    minAmount: 1
+    maxAmount: 1
+    overkillBonusChance: 0
+  - item: {fileID: 11400000, guid: 480dc5f79114b844988205a318d0b8ba, type: 2}
+    baseDropChance: 0.7
+    minAmount: 1
+    maxAmount: 2
+    overkillBonusChance: 0.2
+  - item: {fileID: 11400000, guid: c8201d6da96a17f43a85609ddca13a49, type: 2}
+    baseDropChance: 0.25
+    minAmount: 1
+    maxAmount: 1
+    overkillBonusChance: 0.25
+  - item: {fileID: 11400000, guid: 93b8af21eb7fb684b99fb9feb2b882de, type: 2}
+    baseDropChance: 0.12
+    minAmount: 1
+    maxAmount: 1
+    overkillBonusChance: 0.15
+  canBeTamed: 1
+  favoriteBaitItem: {fileID: 11400000, guid: 610cafc142c02cd4c961d25135ba5f09, type: 2}
+  baseTameChance: 0.25
+  awakenedPetSkillDescription: "\uD50C\uB808\uC774\uC5B4 \uCE58\uBA85\uD0C0\uC728 +10% \uBC0F \uACF5\uACA9\uB825 +8%"
